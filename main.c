@@ -1,177 +1,117 @@
-#include "pico/stdlib.h"
 #include <stdio.h>
+#include <dht.h>
+#include <pico/stdlib.h>
+#include <hardware/pwm.h>
+#include "pico/i2c.h"
+#include "hardware/i2c.h"
+#include "lcd_i2c.h" // Include LCD library
 
+// DHT Sensor configuration
+static const dht_model_t DHT_MODEL = DHT22;
+static const uint DATA_PIN = 16;    // GPIO pin connected to DHT Data
+static const uint RGB_RED_PIN = 13; // GPIO pin for Red
+static const uint RGB_GREEN_PIN = 14; // GPIO pin for Green
+static const uint RGB_BLUE_PIN = 15; // GPIO pin for Blue
 
-const uint total_slots = 10;
-const uint entry_gate_pin = 15;
-const uint exit_gate_pin = 16;
-const uint entry_btn_pin = 14;
-const uint exit_btn_pin = 13;
-const uint slot_base_pin = 2;
+// I2C display configuration
+#define I2C_PORT i2c0
+#define LCD_ADDR 0x27  // Default address for 16x2 I2C LCD (you may need to change this)
+#define SDA_PIN 18
+#define SCL_PIN 19
 
-typedef enum {
-    GARAGE_NOT_FULL,
-    GARAGE_FULL
-} parking_state_t;
+// Convert Celsius to Fahrenheit
+static float celsius_to_fahrenheit(float temperature) {
+    return temperature * (9.0f / 5) + 32;
+}
 
-typedef enum {
-    SLOT_AVAILABLE,
-    SLOT_TAKEN
-} parking_slot_state_t;
+// Initialize PWM for RGB LED
+void setup_pwm(uint pin) {
+    gpio_set_function(pin, GPIO_FUNC_PWM);
+    uint slice_num = pwm_gpio_to_slice_num(pin);
+    pwm_set_wrap(slice_num, 255);  // Set PWM range to 0-255 for 8-bit color
+    pwm_set_gpio_level(pin, 0);    // Set initial duty cycle to 0
+    pwm_set_enabled(slice_num, true);
+}
 
-typedef enum {
-    GATE_CLOSED,
-    GATE_OPEN
-} parking_gate_state_t;
+// Set the RGB LED color
+void set_rgb_color(uint8_t red, uint8_t green, uint8_t blue) {
+    pwm_set_gpio_level(RGB_RED_PIN, red);
+    pwm_set_gpio_level(RGB_GREEN_PIN, green);
+    pwm_set_gpio_level(RGB_BLUE_PIN, blue);
+}
 
- 
+// Initialize I2C LCD
+lcd_t lcd;
 
+void setup_i2c_lcd() {
+    i2c_init(I2C_PORT, 400000);  // Initialize I2C with 400kHz clock speed
+    gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);  // Set SDA pin for I2C
+    gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);  // Set SCL pin for I2C
+    gpio_pull_up(SDA_PIN);  // Enable pull-up resistors
+    gpio_pull_up(SCL_PIN);  // Enable pull-up resistors
 
-parking_state_t parking_status = GARAGE_NOT_FULL;
-parking_slot_state_t parking_slots[total_slots];
-parking_gate_state_t entry_gate_status = GATE_CLOSED;
-parking_gate_state_t exit_gate_status = GATE_CLOSED;
-
-
-void initialize_system();
-
-void check_parking_status();
-
-void handle_gate(uint button_pin, parking_gate_state_t *gate_status, const char *gate_label);
-
-void monitor_slots();
-
-void recommend_free_slot();
-
-bool is_button_activated(uint button_pin);
+    lcd_init(&lcd, LCD_ADDR, &I2C_PORT);  // Initialize the LCD with address 0x27
+    lcd_clear(&lcd);  // Clear the LCD display
+}
 
 int main() {
-
     stdio_init_all();
-    initialize_system();
+    puts("\nDHT22 Sensor, RGB LED and LCD Display Control");
+
+    dht_t dht;
+    dht_init(&dht, DHT_MODEL, pio0, DATA_PIN, true);  // Initialize DHT22 sensor
+
+    // Initialize RGB LED pins for PWM
+    setup_pwm(RGB_RED_PIN);
+    setup_pwm(RGB_GREEN_PIN);
+    setup_pwm(RGB_BLUE_PIN);
+
+    // Initialize I2C LCD display
+    setup_i2c_lcd();
 
     while (true) {
+        // Start the measurement
+        dht_start_measurement(&dht);
 
-        check_parking_status();
-
-        handle_gate(entry_btn_pin, &entry_gate_status, "Entry Gate");
-
-        handle_gate(exit_btn_pin, &exit_gate_status, "Exit Gate");
-
-        monitor_slots();
+        float humidity;
+        float temperature_c;
+        dht_result_t result = dht_finish_measurement_blocking(&dht, &humidity, &temperature_c);
         
-        sleep_ms(100); 
+        if (result == DHT_RESULT_OK) {
+            printf("Temperature: %.1f C (%.1f F), Humidity: %.1f%%\n", 
+                   temperature_c, celsius_to_fahrenheit(temperature_c), humidity);
+
+            // Update RGB LED color based on temperature
+            if (temperature_c < 20.0) {
+                // Blue for cold (below 20°C)
+                set_rgb_color(0, 0, 255);
+            } else if (temperature_c > 25.0) {
+                // Red for hot (above 25°C)
+                set_rgb_color(255, 0, 0);
+            } else {
+                // Green for normal (between 20°C and 25°C)
+                set_rgb_color(0, 255, 0);
+            }
+
+            // Display temperature and humidity on the LCD
+            char buffer[32];
+            snprintf(buffer, sizeof(buffer), "T: %.1fC H: %.1f%%", temperature_c, humidity);
+            lcd_set_cursor(&lcd, 0, 0);
+            lcd_print(&lcd, buffer);
+
+        } else if (result == DHT_RESULT_TIMEOUT) {
+            puts("DHT sensor not responding. Please check your wiring.");
+            set_rgb_color(0, 0, 0);  // Turn off the LED on timeout
+            lcd_clear(&lcd);  // Clear the display
+        } else {
+            assert(result == DHT_RESULT_BAD_CHECKSUM);
+            puts("Bad checksum");
+            set_rgb_color(0, 0, 0);  // Turn off the LED on checksum error
+            lcd_clear(&lcd);  // Clear the display
+        }
+
+        sleep_ms(2000);  // Wait 2 seconds before next reading
     }
 
     return 0;
-}
-
-
-void initialize_system() {
-    for (int i = 0; i < total_slots; i++) {
-        gpio_init(slot_base_pin + i);
-        gpio_set_dir(slot_base_pin + i, GPIO_IN);
-        gpio_pull_down(slot_base_pin + i);
-        parking_slots[i] = gpio_get(slot_base_pin + i) ? SLOT_TAKEN : SLOT_AVAILABLE;
-    }
-
-    gpio_init(entry_btn_pin);
-    gpio_set_dir(entry_btn_pin, GPIO_IN);
-    gpio_pull_down(entry_btn_pin);
-
-    gpio_init(exit_btn_pin);
-    gpio_set_dir(exit_btn_pin, GPIO_IN);
-    gpio_pull_down(exit_btn_pin);
-
-    gpio_init(entry_gate_pin);
-    gpio_set_dir(entry_gate_pin, GPIO_OUT);
-
-    gpio_init(exit_gate_pin);
-    gpio_set_dir(exit_gate_pin, GPIO_OUT);
-
-    printf("Parking System Initialized.\n");
-}
-
-
-void check_parking_status() {
-    int slots_occupied = 0;
-
-    for (int i = 0; i < total_slots; i++) {
-        if (parking_slots[i] == SLOT_TAKEN) {
-            slots_occupied++;
-        }
-    }
-
-    if (slots_occupied >= total_slots) {
-        parking_status = GARAGE_FULL;
-    } else {
-        parking_status = GARAGE_NOT_FULL;
-    }
-
-    if (parking_status == GARAGE_FULL) {
-        printf("Parking Status: FULL (%d/%d slots occupied)\n", slots_occupied, total_slots);
-    } else {
-        printf("Parking Status: NOT FULL (%d/%d slots occupied)\n", slots_occupied, total_slots);
-    }
-}
-
-void handle_gate(uint button_pin, parking_gate_state_t *gate_status, const char *gate_label) {
-
-    if (is_button_activated(button_pin)) {
-        printf("%s: OPENING\n", gate_label);
-        *gate_status = GATE_OPEN;
-
-        if (button_pin == entry_btn_pin) {
-            gpio_put(entry_gate_pin, 1);
-        } else {
-            gpio_put(exit_gate_pin, 1);
-        }
-
-        sleep_ms(3000); 
-
-        printf("%s: CLOSING\n", gate_label);
-        *gate_status = GATE_CLOSED;
-
-        if (button_pin == entry_btn_pin) {
-            gpio_put(entry_gate_pin, 0);
-        } else {
-            gpio_put(exit_gate_pin, 0);
-        }
-    }
-}
-
-
-void monitor_slots() {
-
-    for (int i = 0; i < total_slots; i++) {
-        parking_slots[i] = gpio_get(slot_base_pin + i) ? SLOT_TAKEN : SLOT_AVAILABLE;
-    }
-}
-
-void recommend_free_slot() {
-
-    for (int i = 0; i < total_slots; i++) {
-        if (parking_slots[i] == SLOT_AVAILABLE) {
-            printf("Recommended Slot: %d\n", i + 1);
-            return;
-        }
-    }
-    printf("No Free Slots Available.\n");
-}
-
-
-bool is_button_activated(uint button_pin) {
-
-    static bool last_state[2] = {false, false};
-    bool current_state = gpio_get(button_pin);
-
-    int index = (button_pin == exit_btn_pin) ? 1 : 0;
-
-    if (current_state && !last_state[index]) {
-        last_state[index] = current_state;
-        return true;
-    }
-
-    last_state[index] = current_state;
-    return false;
 }

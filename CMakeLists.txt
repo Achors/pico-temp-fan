@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 # TODO: Set your project name here:
-set(PROJECT project-template)
+set(PROJECT pico-temp-fan)
 
 # You do not need to modify the rest of this file!
 
@@ -37,7 +37,9 @@ add_compile_options(-Wall -Wno-format -Wno-unused-function -Wno-maybe-uninitiali
 file(GLOB SOURCES "*.h" "*.c")
 add_executable(${PROJECT} ${SOURCES})
 
-target_link_libraries(${PROJECT} pico_stdlib hardware_pwm hardware_adc pico_rand hardware_pio)
+target_link_libraries(${PROJECT} pico_stdlib hardware_pwm hardware_adc pico_rand hardware_pio dht)
+add_subdirectory(pico_dht/dht ${CMAKE_BINARY_DIR}/pico_dht_build)
+
 
 pico_add_extra_outputs(${PROJECT})
 

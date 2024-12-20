@@ -1,0 +1,7 @@
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/pioasm.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/edit_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/list_install_components.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/install.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/install/local.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pioasm/CMakeFiles/install/strip.dir
