@@ -2,7 +2,8 @@
 #include <dht.h>
 #include <pico/stdlib.h>
 #include <hardware/pwm.h>
-#include "RPI_PICO_I2C_LCD.h"
+#include "pico/binary_info.h"
+#include "pico_hd44780/hd44780.h"
 
 // DHT Sensor configuration
 static const dht_model_t DHT_MODEL = DHT22;
@@ -74,10 +75,10 @@ int main() {
         float humidity;
         float temperature_c;
         dht_result_t result = dht_finish_measurement_blocking(&dht, &humidity, &temperature_c);
-        
+
         if (result == DHT_RESULT_OK) {
             printf("Temperature: %.1f C (%.1f F), Humidity: %.1f%%\n", 
-                   temperature_c, celsius_to_fahrenheit(temperature_c), humidity);
+                temperature_c, celsius_to_fahrenheit(temperature_c), humidity);
 
             // Update RGB LED color based on temperature
             if (temperature_c < 20.0) {
@@ -92,24 +93,34 @@ int main() {
             }
 
             // Display temperature and humidity on the LCD
-            char buffer[32];
-            snprintf(buffer, sizeof(buffer), "T: %.1fC H: %.1f%%", temperature_c, humidity);
-            lcd_set_cursor(&lcd, 0, 0);
-            lcd_print(&lcd, buffer);
+            char line1[16];
+            char line2[16];
+            snprintf(line1, sizeof(line1), "Temp: %.1fC", temperature_c);
+            snprintf(line2, sizeof(line2), "Hum: %.1f%%", humidity);
+
+            lcd_clear(&lcd);              // Clear the display
+            lcd_set_cursor(&lcd, 0, 0);  // Set cursor to the first line
+            lcd_print(&lcd, line1);      // Print temperature
+            lcd_set_cursor(&lcd, 1, 0);  // Set cursor to the second line
+            lcd_print(&lcd, line2);      // Print humidity
 
         } else if (result == DHT_RESULT_TIMEOUT) {
             puts("DHT sensor not responding. Please check your wiring.");
             set_rgb_color(0, 0, 0);  // Turn off the LED on timeout
-            lcd_clear(&lcd);  // Clear the display
+            lcd_clear(&lcd);         // Clear the display
+            lcd_set_cursor(&lcd, 0, 0);
+            lcd_print(&lcd, "DHT Timeout!");
         } else {
             assert(result == DHT_RESULT_BAD_CHECKSUM);
             puts("Bad checksum");
             set_rgb_color(0, 0, 0);  // Turn off the LED on checksum error
-            lcd_clear(&lcd);  // Clear the display
+            lcd_clear(&lcd);         // Clear the display
+            lcd_set_cursor(&lcd, 0, 0);
+            lcd_print(&lcd, "Checksum Error!");
         }
 
         sleep_ms(2000);  // Wait 2 seconds before next reading
-    }
-
-    return 0;
 }
+
+}
+

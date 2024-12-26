@@ -341,6 +341,15 @@ pico-temp-fan_IS_TOP_LEVEL:STATIC=ON
 pico-temp-fan_SOURCE_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan
 
 //Value Computed by CMake
+pico_hd44780_BINARY_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-hd44780
+
+//Value Computed by CMake
+pico_hd44780_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+pico_hd44780_SOURCE_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-hd44780
+
+//Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk
 
 //Value Computed by CMake

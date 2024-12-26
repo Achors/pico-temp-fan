@@ -31,40 +31,40 @@ include(pico_sdk_import.cmake)
 project(${PROJECT})
 
 pico_sdk_init()
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_compile_options(-Wall -Wno-format -Wno-unused-function -Wno-maybe-uninitialized)
+
+
+include(../pico-hd44780/pico_hd44780.cmake)
+
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../pico-hd44780/include)
 
 file(GLOB SOURCES "*.h" "*.c")
 add_executable(${PROJECT} ${SOURCES})
 
-# Add hardware_i2c and other necessary libraries
 target_link_libraries(${PROJECT} 
     pico_stdlib 
     hardware_pwm 
     hardware_adc 
     pico_rand 
     hardware_pio 
-    dht 
-    hardware_i2c
+    dht
+    hd44780  
 )
-
-# Include directories to make sure the i2c.h is found
-include_directories(${PICO_SDK_PATH}/src/rp2040/hardware/i2c)
-# Add the path to the RPI-PICO-I2C-LCD library
-add_subdirectory(RPI-PICO-I2C-LCD)
-
-# Link the LCD library to your project
-target_link_libraries(${PROJECT} pico_stdlib hardware_i2c RPI_PICO_I2C_LCD)
-
-
 add_subdirectory(pico_dht/dht ${CMAKE_BINARY_DIR}/pico_dht_build)
+# add_subdirectory(../pico-hd44780 ${CMAKE_BINARY_DIR}/pico_hd44780_build)
 
 pico_add_extra_outputs(${PROJECT})
 
+
 pico_enable_stdio_usb(${PROJECT} 1)
 pico_enable_stdio_uart(${PROJECT} 0)
+
 
 if (${ENABLE_WIFI} AND PICO_CYW43_SUPPORTED)
     add_compile_definitions(WIFI)
     target_link_libraries(${PROJECT_NAME} pico_cyw43_arch_none)
 endif ()
+

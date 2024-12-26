@@ -191,6 +191,8 @@
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-hd44780/CMakeFiles/edit_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-hd44780/CMakeFiles/rebuild_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico_dht_build/CMakeFiles/dht_dht_pio_h.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico_dht_build/CMakeFiles/edit_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico_dht_build/CMakeFiles/rebuild_cache.dir

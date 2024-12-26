@@ -65,19 +65,37 @@ CMAKE_BINARY_DIR = /home/nyereres/embedded/week5-project/pico-temp-fan/build
 # The main recursive "all" target.
 all: CMakeFiles/pico-temp-fan.dir/all
 all: pico-sdk/all
+all: pico-hd44780/all
 all: pico_dht_build/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: pico-sdk/preinstall
+preinstall: pico-hd44780/preinstall
 preinstall: pico_dht_build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/pico-temp-fan.dir/clean
 clean: pico-sdk/clean
+clean: pico-hd44780/clean
 clean: pico_dht_build/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory pico-hd44780
+
+# Recursive "all" directory target.
+pico-hd44780/all:
+.PHONY : pico-hd44780/all
+
+# Recursive "preinstall" directory target.
+pico-hd44780/preinstall:
+.PHONY : pico-hd44780/preinstall
+
+# Recursive "clean" directory target.
+pico-hd44780/clean:
+.PHONY : pico-hd44780/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk
@@ -1761,12 +1779,12 @@ CMakeFiles/pico-temp-fan.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2
 CMakeFiles/pico-temp-fan.dir/all: pico_dht_build/CMakeFiles/dht_dht_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target pico-temp-fan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target pico-temp-fan"
 .PHONY : CMakeFiles/pico-temp-fan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pico-temp-fan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 91
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 90
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pico-temp-fan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 0
 .PHONY : CMakeFiles/pico-temp-fan.dir/rule

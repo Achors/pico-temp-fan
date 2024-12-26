@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/nyereres/embedded/week5-project/pico-hd44780/CMakeLists.txt"
+  "/home/nyereres/embedded/week5-project/pico-hd44780/pico_hd44780.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
@@ -269,6 +271,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "pico-hd44780/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico_dht_build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
