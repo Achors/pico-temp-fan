@@ -1,0 +1,3 @@
+[submodule "pico-hd44780"]
+	path = pico-hd44780
+	url = https://github.com/Eifoen/pico-hd44780.git
