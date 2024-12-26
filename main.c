@@ -2,9 +2,7 @@
 #include <dht.h>
 #include <pico/stdlib.h>
 #include <hardware/pwm.h>
-#include "pico/i2c.h"
-#include "hardware/i2c.h"
-#include "lcd_i2c.h" // Include LCD library
+#include "RPI_PICO_I2C_LCD.h"
 
 // DHT Sensor configuration
 static const dht_model_t DHT_MODEL = DHT22;

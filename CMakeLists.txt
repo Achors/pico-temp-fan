@@ -37,9 +37,27 @@ add_compile_options(-Wall -Wno-format -Wno-unused-function -Wno-maybe-uninitiali
 file(GLOB SOURCES "*.h" "*.c")
 add_executable(${PROJECT} ${SOURCES})
 
-target_link_libraries(${PROJECT} pico_stdlib hardware_pwm hardware_adc pico_rand hardware_pio dht)
-add_subdirectory(pico_dht/dht ${CMAKE_BINARY_DIR}/pico_dht_build)
+# Add hardware_i2c and other necessary libraries
+target_link_libraries(${PROJECT} 
+    pico_stdlib 
+    hardware_pwm 
+    hardware_adc 
+    pico_rand 
+    hardware_pio 
+    dht 
+    hardware_i2c
+)
 
+# Include directories to make sure the i2c.h is found
+include_directories(${PICO_SDK_PATH}/src/rp2040/hardware/i2c)
+# Add the path to the RPI-PICO-I2C-LCD library
+add_subdirectory(RPI-PICO-I2C-LCD)
+
+# Link the LCD library to your project
+target_link_libraries(${PROJECT} pico_stdlib hardware_i2c RPI_PICO_I2C_LCD)
+
+
+add_subdirectory(pico_dht/dht ${CMAKE_BINARY_DIR}/pico_dht_build)
 
 pico_add_extra_outputs(${PROJECT})
 

@@ -1042,6 +1042,30 @@ home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
@@ -2154,6 +2178,9 @@ help:
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"

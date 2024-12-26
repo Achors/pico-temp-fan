@@ -1234,6 +1234,20 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 # Object files for target pico-temp-fan
 pico__temp__fan_OBJECTS = \
 "CMakeFiles/pico-temp-fan.dir/main.c.obj" \
@@ -1319,7 +1333,8 @@ pico__temp__fan_OBJECTS = \
 "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
 "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
 "CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 
 # External object files for target pico-temp-fan
 pico__temp__fan_EXTERNAL_OBJECTS =
@@ -1408,11 +1423,12 @@ pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/build.make
 pico-temp-fan.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
 pico-temp-fan.elf: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable pico-temp-fan.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable pico-temp-fan.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico-temp-fan.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf > pico-temp-fan.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf >> pico-temp-fan.dis

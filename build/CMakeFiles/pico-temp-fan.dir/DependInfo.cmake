@@ -84,6 +84,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/home/nyereres/pico/pico-sdk/src/rp2040/hardware/i2c"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/nyereres/pico/pico-sdk/lib/tinyusb/src"
   "pico_dht_build"
@@ -145,6 +146,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/include"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/include"
+  "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -184,6 +186,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
