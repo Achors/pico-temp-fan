@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
+
+
 # TODO: Set your project name here:
 set(PROJECT pico-temp-fan)
 
@@ -35,36 +37,38 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_compile_options(-Wall -Wno-format -Wno-unused-function -Wno-maybe-uninitialized)
 
+# Add the submodule directory
+add_subdirectory(pico-hd44780)
 
-include(../pico-hd44780/pico_hd44780.cmake)
+# Include necessary headers
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/pico-hd44780/include)
 
-
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../pico-hd44780/include)
-
+# File collection (ensure this is defined before add_executable)
 file(GLOB SOURCES "*.h" "*.c")
+
+# Create executable target
 add_executable(${PROJECT} ${SOURCES})
 
-target_link_libraries(${PROJECT} 
-    pico_stdlib 
-    hardware_pwm 
-    hardware_adc 
-    pico_rand 
-    hardware_pio 
+# Link the submodule's library (assuming it's defined as such)
+target_link_libraries(${PROJECT}
+    pico_stdlib
+    hardware_pwm
+    hardware_adc
+    pico_rand
+    hardware_pio
     dht
-    hd44780  
+    pico-hd44780  # Assuming this is the target from pico-hd44780 submodule
 )
+
+# Additional subdirectory for dht
 add_subdirectory(pico_dht/dht ${CMAKE_BINARY_DIR}/pico_dht_build)
-# add_subdirectory(../pico-hd44780 ${CMAKE_BINARY_DIR}/pico_hd44780_build)
 
 pico_add_extra_outputs(${PROJECT})
 
-
 pico_enable_stdio_usb(${PROJECT} 1)
 pico_enable_stdio_uart(${PROJECT} 0)
-
 
 if (${ENABLE_WIFI} AND PICO_CYW43_SUPPORTED)
     add_compile_definitions(WIFI)
     target_link_libraries(${PROJECT_NAME} pico_cyw43_arch_none)
 endif ()
-

@@ -84,6 +84,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../include"
+  "../pico-hd44780/include"
   "/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/nyereres/pico/pico-sdk/lib/tinyusb/src"
   "pico_dht_build"

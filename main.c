@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <dht.h>
+#include <string.h>
 #include <pico/stdlib.h>
 #include <hardware/pwm.h>
 #include "pico/binary_info.h"
@@ -12,11 +13,16 @@ static const uint RGB_RED_PIN = 13; // GPIO pin for Red
 static const uint RGB_GREEN_PIN = 14; // GPIO pin for Green
 static const uint RGB_BLUE_PIN = 15; // GPIO pin for Blue
 
-// I2C display configuration
-#define I2C_PORT i2c0
-#define LCD_ADDR 0x27  // Default address for 16x2 I2C LCD (you may need to change this)
-#define SDA_PIN 18
-#define SCL_PIN 19
+// LCD Display configuration
+static const uint RS_PIN = 17;   // Register Select Pin (RS) connected to GPIO 17 on Pico
+static const uint RW_PIN = 0;    // Read/Write Pin (RW) connected to GND (Ground for write mode)
+static const uint E_PIN = 18;     // Enable Pin (E) connected to GPIO 18 on Pico
+static const uint D4_PIN = 19;    // Data Pin D4 connected to GPIO 19 on Pico
+static const uint D5_PIN = 20;    // Data Pin D5 connected to GPIO 20 on Pico
+static const uint D6_PIN = 21;    // Data Pin D6 connected to GPIO 21 on Pico
+static const uint D7_PIN = 22;   // Data Pin D7 connected to GPIO 22 on Pico
+// static const uint V0_PIN = 0;    // Contrast Pin (V0) for adjusting the screen contrast (use a potentiometer)
+
 
 // Convert Celsius to Fahrenheit
 static float celsius_to_fahrenheit(float temperature) {
@@ -39,18 +45,14 @@ void set_rgb_color(uint8_t red, uint8_t green, uint8_t blue) {
     pwm_set_gpio_level(RGB_BLUE_PIN, blue);
 }
 
-// Initialize I2C LCD
-lcd_t lcd;
+// Initialize the HD44780 LCD in 4-bit mode
+hd44780_t lcd;
 
-void setup_i2c_lcd() {
-    i2c_init(I2C_PORT, 400000);  // Initialize I2C with 400kHz clock speed
-    gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);  // Set SDA pin for I2C
-    gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);  // Set SCL pin for I2C
-    gpio_pull_up(SDA_PIN);  // Enable pull-up resistors
-    gpio_pull_up(SCL_PIN);  // Enable pull-up resistors
-
-    lcd_init(&lcd, LCD_ADDR, &I2C_PORT);  // Initialize the LCD with address 0x27
-    lcd_clear(&lcd);  // Clear the LCD display
+void setup_hd44780_lcd() {
+    // Initialize the LCD (in 4-bit mode)
+    hd44780_init(&lcd, RW_PIN, RS_PIN, E_PIN, 0x00, D4_PIN, D5_PIN, D6_PIN, D7_PIN);
+    hd44780_begin(&lcd, 16, 2, true); // 16x2 LCD, fancy font (optional)
+    hd44780_clear(&lcd);  // Clear the display
 }
 
 int main() {
@@ -65,8 +67,8 @@ int main() {
     setup_pwm(RGB_GREEN_PIN);
     setup_pwm(RGB_BLUE_PIN);
 
-    // Initialize I2C LCD display
-    setup_i2c_lcd();
+    // Initialize HD44780 LCD
+    setup_hd44780_lcd();
 
     while (true) {
         // Start the measurement
@@ -98,29 +100,29 @@ int main() {
             snprintf(line1, sizeof(line1), "Temp: %.1fC", temperature_c);
             snprintf(line2, sizeof(line2), "Hum: %.1f%%", humidity);
 
-            lcd_clear(&lcd);              // Clear the display
-            lcd_set_cursor(&lcd, 0, 0);  // Set cursor to the first line
-            lcd_print(&lcd, line1);      // Print temperature
-            lcd_set_cursor(&lcd, 1, 0);  // Set cursor to the second line
-            lcd_print(&lcd, line2);      // Print humidity
+            hd44780_clear(&lcd);              // Clear the display
+            hd44780_cursor_set(&lcd, 0, 0);  // Set cursor to the first line
+            hd44780_print(&lcd, line1, strlen(line1));      // Print temperature
+            hd44780_cursor_set(&lcd, 1, 0);  // Set cursor to the second line
+            hd44780_print(&lcd, line2, strlen(line2));      // Print humidity
 
         } else if (result == DHT_RESULT_TIMEOUT) {
             puts("DHT sensor not responding. Please check your wiring.");
             set_rgb_color(0, 0, 0);  // Turn off the LED on timeout
-            lcd_clear(&lcd);         // Clear the display
-            lcd_set_cursor(&lcd, 0, 0);
-            lcd_print(&lcd, "DHT Timeout!");
+            hd44780_clear(&lcd);         // Clear the display
+            hd44780_cursor_set(&lcd, 0, 0);
+            hd44780_print(&lcd, "DHT Timeout!", strlen("DHT Timeout!"));
         } else {
             assert(result == DHT_RESULT_BAD_CHECKSUM);
             puts("Bad checksum");
             set_rgb_color(0, 0, 0);  // Turn off the LED on checksum error
-            lcd_clear(&lcd);         // Clear the display
-            lcd_set_cursor(&lcd, 0, 0);
-            lcd_print(&lcd, "Checksum Error!");
+            hd44780_clear(&lcd);         // Clear the display
+            hd44780_cursor_set(&lcd, 0, 0);
+            hd44780_print(&lcd, "Checksum Error!", strlen("Checksum Error!"));
         }
 
         sleep_ms(2000);  // Wait 2 seconds before next reading
-}
+    }
 
+    return 0;
 }
-

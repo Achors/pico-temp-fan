@@ -116,6 +116,1188 @@ depend:
 	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+pico-hd44780/CMakeFiles/pico_hd44780.dir/rule:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-hd44780/CMakeFiles/pico_hd44780.dir/rule
+.PHONY : pico-hd44780/CMakeFiles/pico_hd44780.dir/rule
+
+# Convenience name for target.
+pico_hd44780: pico-hd44780/CMakeFiles/pico_hd44780.dir/rule
+.PHONY : pico_hd44780
+
+# fast build rule for target.
+pico_hd44780/fast:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/build
+.PHONY : pico_hd44780/fast
+
+hd44780.obj: hd44780.c.obj
+.PHONY : hd44780.obj
+
+# target to build an object file
+hd44780.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/hd44780.c.obj
+.PHONY : hd44780.c.obj
+
+hd44780.i: hd44780.c.i
+.PHONY : hd44780.i
+
+# target to preprocess a source file
+hd44780.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/hd44780.c.i
+.PHONY : hd44780.c.i
+
+hd44780.s: hd44780.c.s
+.PHONY : hd44780.s
+
+# target to generate assembly for a file
+hd44780.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/hd44780.c.s
+.PHONY : hd44780.c.s
+
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.i: home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.s: home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.i: home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.s: home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.obj: home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.i: home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.s: home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.obj: home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.i: home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.s: home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.obj: home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.i: home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.s: home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.obj: home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.i: home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.s: home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.obj: home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.i: home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.s: home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+
+# target to build an object file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/nyereres/embedded/week5-project/pico-temp-fan/build && $(MAKE) $(MAKESILENT) -f pico-hd44780/CMakeFiles/pico_hd44780.dir/build.make pico-hd44780/CMakeFiles/pico_hd44780.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +1306,153 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... pico_hd44780"
+	@echo "... hd44780.obj"
+	@echo "... hd44780.i"
+	@echo "... hd44780.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
 .PHONY : help
 
 

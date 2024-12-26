@@ -347,7 +347,7 @@ pico_hd44780_BINARY_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-f
 pico_hd44780_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pico_hd44780_SOURCE_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-hd44780
+pico_hd44780_SOURCE_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan/pico-hd44780
 
 //Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk
@@ -366,15 +366,6 @@ picotool_INSTALL_DIR:PATH=/home/nyereres/embedded/week5-project/pico-temp-fan/bu
 
 //The directory containing a CMake configuration file for pioasm.
 pioasm_DIR:PATH=pioasm_DIR-NOTFOUND
-
-//Value Computed by CMake
-project-template_BINARY_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan/build
-
-//Value Computed by CMake
-project-template_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-project-template_SOURCE_DIR:STATIC=/home/nyereres/embedded/week5-project/pico-temp-fan
 
 
 ########################

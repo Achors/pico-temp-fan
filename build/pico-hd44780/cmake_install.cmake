@@ -1,4 +1,4 @@
-# Install script for directory: /home/nyereres/embedded/week5-project/pico-hd44780
+# Install script for directory: /home/nyereres/embedded/week5-project/pico-temp-fan/pico-hd44780
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
