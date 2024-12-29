@@ -1780,6 +1780,7 @@ pico_dht_build/clean: pico_dht_build/CMakeFiles/dht_dht_pio_h.dir/clean
 # All Build rule for target.
 CMakeFiles/pico-temp-fan.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all
 CMakeFiles/pico-temp-fan.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+CMakeFiles/pico-temp-fan.dir/all: pico-hd44780/CMakeFiles/pico_hd44780.dir/all
 CMakeFiles/pico-temp-fan.dir/all: pico_dht_build/CMakeFiles/dht_dht_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico-temp-fan.dir/build.make CMakeFiles/pico-temp-fan.dir/build
@@ -1788,7 +1789,7 @@ CMakeFiles/pico-temp-fan.dir/all: pico_dht_build/CMakeFiles/dht_dht_pio_h.dir/al
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pico-temp-fan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pico-temp-fan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles 0
 .PHONY : CMakeFiles/pico-temp-fan.dir/rule

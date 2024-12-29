@@ -1409,6 +1409,7 @@ pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/build.make
+pico-temp-fan.elf: pico-hd44780/libpico_hd44780.a
 pico-temp-fan.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
 pico-temp-fan.elf: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/link.txt

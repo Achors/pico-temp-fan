@@ -57,7 +57,7 @@ target_link_libraries(${PROJECT}
     pico_rand
     hardware_pio
     dht
-    pico-hd44780  # Assuming this is the target from pico-hd44780 submodule
+    pico_hd44780  
 )
 
 # Additional subdirectory for dht
