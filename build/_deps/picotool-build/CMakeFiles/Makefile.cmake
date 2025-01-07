@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/nyereres/pico/pico-sdk/src/common/pico_binary_info/CMakeLists.txt"
   "/home/nyereres/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/CMakeLists.txt"
   "/home/nyereres/pico/pico-sdk/src/host/pico_platform/CMakeLists.txt"
+  "/home/nyereres/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
@@ -180,6 +181,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "boot_picoboot_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "boot_picobin_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico_usb_reset_interface_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "boot_bootrom_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico_platform/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

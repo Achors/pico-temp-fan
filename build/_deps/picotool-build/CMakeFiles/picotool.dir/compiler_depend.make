@@ -769,7 +769,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/nyereres/embedded/week5-project/pico-t
   /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-src/elf/addresses.h \
   /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-src/bintool/metadata.h \
   /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/nyereres/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /home/nyereres/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
   /home/nyereres/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
   /home/nyereres/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
@@ -1137,7 +1137,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/nyereres/embedded/week5-project/pico
 
 /usr/include/c++/12/bits/enable_special_members.h:
 
-/usr/include/c++/12/unordered_map:
+/usr/include/c++/12/bits/hashtable_policy.h:
 
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
@@ -1151,9 +1151,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/nyereres/embedded/week5-project/pico
 
 /home/nyereres/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
-/usr/include/c++/12/bits/hashtable_policy.h:
+/usr/include/c++/12/unordered_map:
 
-/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+/home/nyereres/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 

@@ -129,6 +129,12 @@
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_usb_reset_interface_headers/CMakeFiles/install.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_usb_reset_interface_headers/CMakeFiles/install/local.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_usb_reset_interface_headers/CMakeFiles/install/strip.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/edit_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/rebuild_cache.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/list_install_components.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/install.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/install/local.dir
+/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/boot_bootrom_headers/CMakeFiles/install/strip.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_platform/CMakeFiles/edit_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_platform/CMakeFiles/rebuild_cache.dir
 /home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool-build/pico_platform/CMakeFiles/list_install_components.dir

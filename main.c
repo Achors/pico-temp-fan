@@ -3,8 +3,8 @@
 #include <string.h>
 #include <pico/stdlib.h>
 #include <hardware/pwm.h>
-#include "pico/binary_info.h"
-#include "pico_hd44780/hd44780.h"
+#include <stdint.h>  // Include the stdint.h header for fixed-width integer types
+#include "lcd.h"     // Include the LCD header
 
 // DHT Sensor configuration
 static const dht_model_t DHT_MODEL = DHT22;
@@ -13,29 +13,39 @@ static const uint RGB_RED_PIN = 13; // GPIO pin for Red
 static const uint RGB_GREEN_PIN = 14; // GPIO pin for Green
 static const uint RGB_BLUE_PIN = 15; // GPIO pin for Blue
 
-// LCD Display configuration
-static const uint RS_PIN = 17;   // Register Select Pin (RS) connected to GPIO 17 on Pico
-static const uint RW_PIN = 0;    // Read/Write Pin (RW) connected to GND (Ground for write mode)
-static const uint E_PIN = 18;     // Enable Pin (E) connected to GPIO 18 on Pico
-static const uint D4_PIN = 19;    // Data Pin D4 connected to GPIO 19 on Pico
-static const uint D5_PIN = 20;    // Data Pin D5 connected to GPIO 20 on Pico
-static const uint D6_PIN = 21;    // Data Pin D6 connected to GPIO 21 on Pico
-static const uint D7_PIN = 22;   // Data Pin D7 connected to GPIO 22 on Pico
-// static const uint V0_PIN = 0;    // Contrast Pin (V0) for adjusting the screen contrast (use a potentiometer)
-
+// Define the GPIO pins for motor control
+#define ENA_PIN 11  // PWM control for speed
+#define IN1_PIN 10  // Direction control
+#define IN2_PIN 9   // Direction control
 
 // Convert Celsius to Fahrenheit
 static float celsius_to_fahrenheit(float temperature) {
     return temperature * (9.0f / 5) + 32;
 }
 
-// Initialize PWM for RGB LED
+// Initialize PWM for Motor
 void setup_pwm(uint pin) {
     gpio_set_function(pin, GPIO_FUNC_PWM);
     uint slice_num = pwm_gpio_to_slice_num(pin);
-    pwm_set_wrap(slice_num, 255);  // Set PWM range to 0-255 for 8-bit color
-    pwm_set_gpio_level(pin, 0);    // Set initial duty cycle to 0
+    pwm_set_wrap(slice_num, 255);  // Set PWM range to 0-255 for 8-bit control
+    pwm_set_gpio_level(pin, 0);    // Set initial duty cycle to 0 (motor off)
     pwm_set_enabled(slice_num, true);
+}
+
+// Set the PWM duty cycle for motor control
+void set_motor_speed(uint8_t speed) {
+    pwm_set_gpio_level(ENA_PIN, speed);
+}
+
+// Set the motor direction
+void set_motor_direction(bool forward) {
+    if (forward) {
+        gpio_put(IN1_PIN, 1);
+        gpio_put(IN2_PIN, 0);
+    } else {
+        gpio_put(IN1_PIN, 0);
+        gpio_put(IN2_PIN, 1);
+    }
 }
 
 // Set the RGB LED color
@@ -45,30 +55,30 @@ void set_rgb_color(uint8_t red, uint8_t green, uint8_t blue) {
     pwm_set_gpio_level(RGB_BLUE_PIN, blue);
 }
 
-// Initialize the HD44780 LCD in 4-bit mode
-hd44780_t lcd;
-
-void setup_hd44780_lcd() {
-    // Initialize the LCD (in 4-bit mode)
-    hd44780_init(&lcd, RW_PIN, RS_PIN, E_PIN, 0x00, D4_PIN, D5_PIN, D6_PIN, D7_PIN);
-    hd44780_begin(&lcd, 16, 2, true); // 16x2 LCD, fancy font (optional)
-    hd44780_clear(&lcd);  // Clear the display
-}
-
 int main() {
     stdio_init_all();
-    puts("\nDHT22 Sensor, RGB LED and LCD Display Control");
+    puts("\nDHT22 Sensor, RGB LED, and Motor Control");
 
     dht_t dht;
     dht_init(&dht, DHT_MODEL, pio0, DATA_PIN, true);  // Initialize DHT22 sensor
+
+    // Initialize motor control pins
+    setup_pwm(ENA_PIN);
+    gpio_init(IN1_PIN);
+    gpio_set_dir(IN1_PIN, GPIO_OUT);
+    gpio_init(IN2_PIN);
+    gpio_set_dir(IN2_PIN, GPIO_OUT);
 
     // Initialize RGB LED pins for PWM
     setup_pwm(RGB_RED_PIN);
     setup_pwm(RGB_GREEN_PIN);
     setup_pwm(RGB_BLUE_PIN);
 
-    // Initialize HD44780 LCD
-    setup_hd44780_lcd();
+    // Initialize LCD
+    lcd_init();
+
+    // Set motor to forward direction initially
+    set_motor_direction(true);
 
     while (true) {
         // Start the measurement
@@ -84,41 +94,50 @@ int main() {
 
             // Update RGB LED color based on temperature
             if (temperature_c < 20.0) {
-                // Blue for cold (below 20°C)
-                set_rgb_color(0, 0, 255);
+                set_rgb_color(0, 0, 255); // Blue for cold
             } else if (temperature_c > 25.0) {
-                // Red for hot (above 25°C)
-                set_rgb_color(255, 0, 0);
+                set_rgb_color(255, 0, 0); // Red for hot
             } else {
-                // Green for normal (between 20°C and 25°C)
-                set_rgb_color(0, 255, 0);
+                set_rgb_color(0, 255, 0); // Green for normal
             }
 
-            // Display temperature and humidity on the LCD
-            char line1[16];
-            char line2[16];
-            snprintf(line1, sizeof(line1), "Temp: %.1fC", temperature_c);
-            snprintf(line2, sizeof(line2), "Hum: %.1f%%", humidity);
+            // Motor speed control based on temperature
+            uint8_t motor_duty_cycle;
+            if (temperature_c < 20.0) {
+                motor_duty_cycle = 0;  // Motor off
+            } else if (temperature_c > 30.0) {
+                motor_duty_cycle = 255;  // Max speed
+            } else {
+                motor_duty_cycle = (uint8_t)(255 * (temperature_c - 20.0) / 10.0);  // Linearly increase speed
+            }
 
-            hd44780_clear(&lcd);              // Clear the display
-            hd44780_cursor_set(&lcd, 0, 0);  // Set cursor to the first line
-            hd44780_print(&lcd, line1, strlen(line1));      // Print temperature
-            hd44780_cursor_set(&lcd, 1, 0);  // Set cursor to the second line
-            hd44780_print(&lcd, line2, strlen(line2));      // Print humidity
+            // Set the motor speed based on the calculated duty cycle
+            set_motor_speed(motor_duty_cycle);
+
+            // Display temperature and humidity on the LCD
+            lcd_clear();  
+            lcd_set_cursor(0, 0);  
+            char line1[16];
+            snprintf(line1, sizeof(line1), "Temp: %.1fC", temperature_c);
+            lcd_send_data((uint8_t*)line1);
+
+            lcd_set_cursor(1, 0);  
+            char line2[16];
+            snprintf(line2, sizeof(line2), "Hum: %.1f%%", humidity);
+            lcd_send_data((uint8_t*)line2);
 
         } else if (result == DHT_RESULT_TIMEOUT) {
             puts("DHT sensor not responding. Please check your wiring.");
             set_rgb_color(0, 0, 0);  // Turn off the LED on timeout
-            hd44780_clear(&lcd);         // Clear the display
-            hd44780_cursor_set(&lcd, 0, 0);
-            hd44780_print(&lcd, "DHT Timeout!", strlen("DHT Timeout!"));
+            lcd_clear();         
+            lcd_set_cursor(0, 0);
+            lcd_send_data((uint8_t*)"DHT Timeout!");
         } else {
-            assert(result == DHT_RESULT_BAD_CHECKSUM);
             puts("Bad checksum");
             set_rgb_color(0, 0, 0);  // Turn off the LED on checksum error
-            hd44780_clear(&lcd);         // Clear the display
-            hd44780_cursor_set(&lcd, 0, 0);
-            hd44780_print(&lcd, "Checksum Error!", strlen("Checksum Error!"));
+            lcd_clear();         
+            lcd_set_cursor(0, 0);
+            lcd_send_data((uint8_t*)"Checksum Error");
         }
 
         sleep_ms(2000);  // Wait 2 seconds before next reading

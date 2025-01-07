@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-sdk/cmake_install.cmake")
-  include("/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-hd44780/cmake_install.cmake")
   include("/home/nyereres/embedded/week5-project/pico-temp-fan/build/pico_dht_build/cmake_install.cmake")
 
 endif()

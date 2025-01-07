@@ -69,11 +69,25 @@ include CMakeFiles/pico-temp-fan.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pico-temp-fan.dir/flags.make
 
-CMakeFiles/pico-temp-fan.dir/main.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/main.c.obj: ../main.c
-CMakeFiles/pico-temp-fan.dir/main.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico-temp-fan.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/main.c.obj -MF CMakeFiles/pico-temp-fan.dir/main.c.obj.d -o CMakeFiles/pico-temp-fan.dir/main.c.obj -c /home/nyereres/embedded/week5-project/pico-temp-fan/main.c
+CMakeFiles/pico-temp-fan.dir/lcd.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/lcd.c.o: ../lcd.c
+CMakeFiles/pico-temp-fan.dir/lcd.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico-temp-fan.dir/lcd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/lcd.c.o -MF CMakeFiles/pico-temp-fan.dir/lcd.c.o.d -o CMakeFiles/pico-temp-fan.dir/lcd.c.o -c /home/nyereres/embedded/week5-project/pico-temp-fan/lcd.c
+
+CMakeFiles/pico-temp-fan.dir/lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/lcd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/embedded/week5-project/pico-temp-fan/lcd.c > CMakeFiles/pico-temp-fan.dir/lcd.c.i
+
+CMakeFiles/pico-temp-fan.dir/lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/lcd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/embedded/week5-project/pico-temp-fan/lcd.c -o CMakeFiles/pico-temp-fan.dir/lcd.c.s
+
+CMakeFiles/pico-temp-fan.dir/main.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/main.c.o: ../main.c
+CMakeFiles/pico-temp-fan.dir/main.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico-temp-fan.dir/main.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/main.c.o -MF CMakeFiles/pico-temp-fan.dir/main.c.o.d -o CMakeFiles/pico-temp-fan.dir/main.c.o -c /home/nyereres/embedded/week5-project/pico-temp-fan/main.c
 
 CMakeFiles/pico-temp-fan.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/main.c.i"
@@ -83,11 +97,11 @@ CMakeFiles/pico-temp-fan.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/main.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/embedded/week5-project/pico-temp-fan/main.c -o CMakeFiles/pico-temp-fan.dir/main.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
@@ -97,11 +111,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
@@ -111,11 +125,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i"
@@ -125,11 +139,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platfor
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
@@ -139,11 +153,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_pla
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c /home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o: /home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.i"
@@ -153,11 +167,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_cla
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
@@ -167,11 +181,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
@@ -181,11 +195,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
@@ -195,10 +209,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -208,11 +222,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.i"
@@ -222,11 +236,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/se
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
@@ -236,11 +250,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
@@ -250,11 +264,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
@@ -264,11 +278,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/cr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_time/time.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.i"
@@ -278,11 +292,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/ti
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
@@ -292,11 +306,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/ti
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
@@ -306,11 +320,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.i"
@@ -320,11 +334,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/da
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.i"
@@ -334,11 +348,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/ph
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o: /home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o -c /home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.i"
@@ -348,11 +362,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/qu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
@@ -362,11 +376,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
@@ -376,11 +390,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
@@ -390,11 +404,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
@@ -404,11 +418,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
@@ -418,11 +432,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
@@ -432,107 +446,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
-
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
@@ -542,11 +460,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_boo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
@@ -556,11 +474,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_boo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
@@ -570,10 +488,120 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
@@ -583,10 +611,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_div
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
@@ -596,11 +624,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_dou
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
@@ -610,11 +638,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_dou
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
@@ -624,10 +652,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_dou
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
@@ -637,10 +665,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_dou
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -650,10 +678,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
@@ -663,11 +691,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
@@ -677,11 +705,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
@@ -691,10 +719,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
@@ -704,11 +732,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
@@ -718,10 +746,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mal
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -731,11 +759,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
@@ -745,11 +773,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_ato
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
@@ -759,11 +787,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
@@ -773,11 +801,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_sta
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
@@ -787,10 +815,10 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_pri
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
@@ -800,11 +828,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
@@ -814,11 +842,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cli
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
@@ -828,11 +856,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
@@ -842,11 +870,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
@@ -856,11 +884,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
@@ -870,11 +898,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
@@ -884,11 +912,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_uni
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
@@ -898,11 +926,25 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
@@ -912,11 +954,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portabl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
@@ -926,11 +968,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portabl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
@@ -940,11 +982,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
@@ -954,11 +996,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
@@ -968,11 +1010,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/a
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
@@ -982,11 +1024,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
@@ -996,11 +1038,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
@@ -1010,11 +1052,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
@@ -1024,11 +1066,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
@@ -1038,11 +1080,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
@@ -1052,11 +1094,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
@@ -1066,11 +1108,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/n
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
@@ -1080,11 +1122,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/n
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
@@ -1094,11 +1136,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/u
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
@@ -1108,11 +1150,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/v
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
@@ -1122,11 +1164,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/v
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
@@ -1136,11 +1178,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
@@ -1150,11 +1192,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
@@ -1164,11 +1206,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
@@ -1178,11 +1220,25 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
@@ -1192,11 +1248,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_ran
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
@@ -1206,11 +1262,11 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj: ../pico_dht/dht/dht.c
-CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj -MF CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj.d -o CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj -c /home/nyereres/embedded/week5-project/pico-temp-fan/pico_dht/dht/dht.c
+CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o: ../pico_dht/dht/dht.c
+CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o -MF CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o.d -o CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o -c /home/nyereres/embedded/week5-project/pico-temp-fan/pico_dht/dht/dht.c
 
 CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.i"
@@ -1220,11 +1276,11 @@ CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nyereres/embedded/week5-project/pico-temp-fan/pico_dht/dht/dht.c -o CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.s
 
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico-temp-fan.dir/flags.make
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/pico-temp-fan.dir/flags.make
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/pico-temp-fan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
@@ -1236,190 +1292,197 @@ CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware
 
 # Object files for target pico-temp-fan
 pico__temp__fan_OBJECTS = \
-"CMakeFiles/pico-temp-fan.dir/main.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj" \
-"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+"CMakeFiles/pico-temp-fan.dir/lcd.c.o" \
+"CMakeFiles/pico-temp-fan.dir/main.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o" \
+"CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 
 # External object files for target pico-temp-fan
 pico__temp__fan_EXTERNAL_OBJECTS =
 
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/main.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.obj
-pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/lcd.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/main.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/sem.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/time.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/datetime.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/pheap.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/common/pico_util/queue.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/pico_dht/dht/dht.c.o
+pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/home/nyereres/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/build.make
-pico-temp-fan.elf: pico-hd44780/libpico_hd44780.a
-pico-temp-fan.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+pico-temp-fan.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 pico-temp-fan.elf: /home/nyereres/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 pico-temp-fan.elf: CMakeFiles/pico-temp-fan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable pico-temp-fan.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nyereres/embedded/week5-project/pico-temp-fan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX executable pico-temp-fan.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico-temp-fan.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf > pico-temp-fan.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf >> pico-temp-fan.dis
-	_deps/picotool/picotool coprodis --quiet pico-temp-fan.dis pico-temp-fan.dis || /usr/bin/cmake -E echo "WARNING: Disassembly is not correct"
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf pico-temp-fan.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf pico-temp-fan.bin
-	_deps/picotool/picotool uf2 convert --quiet /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf pico-temp-fan.uf2 --family rp2040 --abs-block
+	_deps/picotool/picotool uf2 convert --quiet /home/nyereres/embedded/week5-project/pico-temp-fan/build/pico-temp-fan.elf pico-temp-fan.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/pico-temp-fan.dir/build: pico-temp-fan.elf
