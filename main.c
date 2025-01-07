@@ -18,6 +18,9 @@ static const uint RGB_BLUE_PIN = 15; // GPIO pin for Blue
 #define IN1_PIN 10  // Direction control
 #define IN2_PIN 9   // Direction control
 
+// Minimum duty cycle for smooth fan operation
+#define MIN_DUTY_CYCLE 64  // ~25%
+
 // Convert Celsius to Fahrenheit
 static float celsius_to_fahrenheit(float temperature) {
     return temperature * (9.0f / 5) + 32;
@@ -93,7 +96,7 @@ int main() {
                 temperature_c, celsius_to_fahrenheit(temperature_c), humidity);
 
             // Update RGB LED color based on temperature
-            if (temperature_c < 20.0) {
+            if (temperature_c < 23.0) {
                 set_rgb_color(0, 0, 255); // Blue for cold
             } else if (temperature_c > 25.0) {
                 set_rgb_color(255, 0, 0); // Red for hot
@@ -101,15 +104,21 @@ int main() {
                 set_rgb_color(0, 255, 0); // Green for normal
             }
 
-            // Motor speed control based on temperature
+           // Motor speed control based on temperature
             uint8_t motor_duty_cycle;
-            if (temperature_c < 20.0) {
+            if (temperature_c < 23.0) {
                 motor_duty_cycle = 0;  // Motor off
-            } else if (temperature_c > 30.0) {
+            } else if (temperature_c > 25.0) {
                 motor_duty_cycle = 255;  // Max speed
             } else {
-                motor_duty_cycle = (uint8_t)(255 * (temperature_c - 20.0) / 10.0);  // Linearly increase speed
+                // Gradual increase with 4 steps between 23.0 and 25.0°C
+                uint8_t steps[] = { MIN_DUTY_CYCLE, 95, 170, 255 };  // 4 levels of motor speed
+                // Scale the temperature range 23.0 to 25.0 to index [0, 3] for 4 steps
+                uint8_t index = (uint8_t)((temperature_c - 23.0) / 0.5);  // Index between 0 and 3
+                motor_duty_cycle = steps[index];  // Get the corresponding duty cycle
             }
+
+
 
             // Set the motor speed based on the calculated duty cycle
             set_motor_speed(motor_duty_cycle);
