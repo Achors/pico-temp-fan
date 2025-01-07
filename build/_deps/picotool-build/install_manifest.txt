@@ -1,5 +1,0 @@
-/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool/picotool
-/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool/picotoolTargets.cmake
-/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool/picotoolTargets-release.cmake
-/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool/picotoolConfig.cmake
-/home/nyereres/embedded/week5-project/pico-temp-fan/build/_deps/picotool/picotoolConfigVersion.cmake
