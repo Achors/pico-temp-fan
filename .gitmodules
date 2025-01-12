@@ -1,3 +1,6 @@
 [submodule "pico_dht"]
     path = pico_dht
     url = <URL_TO_YOUR_PICO_DHT_REPOSITORY>
+[submodule "external/rpi-pico-i2c-display-lib"]
+	path = external/rpi-pico-i2c-display-lib
+	url = https://github.com/paricbat/rpi-pico-i2c-display-lib.git
