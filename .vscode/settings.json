@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "dht_handler.h": "c",
+        "rgb_led.h": "c",
+        "compare": "c"
+    }
+}

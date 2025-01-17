@@ -1,0 +1,7 @@
+
+add_library(i2c-display-lib STATIC
+    i2c-display-lib.c 
+)
+
+
+target_include_directories(i2c-display-lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

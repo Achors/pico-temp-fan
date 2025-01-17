@@ -4,3 +4,6 @@
 [submodule "external/rpi-pico-i2c-display-lib"]
 	path = external/rpi-pico-i2c-display-lib
 	url = https://github.com/paricbat/rpi-pico-i2c-display-lib.git
+[submodule "pico-sdk"]
+    path = pico-sdk
+    url = https://github.com/raspberrypi/pico-sdk.git
